@@ -1,10 +1,12 @@
 import React from "react";
 import CardSection from "./components/CardSection";
+import Maxonpage from "./components/Maxonpage";
 
 const App = () => {
   return (
     <div>
-      <CardSection />
+      {/* <CardSection /> */}
+      <Maxonpage />
     </div>
   );
 };
