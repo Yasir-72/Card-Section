@@ -35,7 +35,7 @@ const Maxonpage = () => {
   return (
     <>
       <div className="bg-zinc-800 h-screen w-[100%] mx-auto ">
-        <section className="flex flex-wrap justify-center py-28 gap-6  mx-auto">
+        <section className="flex flex-wrap justify-center  py-28 gap-6  mx-auto">
           {smallcardsdata.map((card, index) => (
             <div
               key={index}
